@@ -3,7 +3,7 @@ module github.com/aws-controllers-k8s/emrcontainers-controller
 go 1.25.0
 
 require (
-	github.com/aws-controllers-k8s/iam-controller v1.7.2
+	github.com/aws-controllers-k8s/iam-controller v1.9.0
 	github.com/aws-controllers-k8s/runtime v0.63.0
 	github.com/aws/aws-sdk-go-v2 v1.35.0
 	github.com/aws/aws-sdk-go-v2/service/emrcontainers v1.33.14
@@ -19,7 +19,6 @@ require (
 )
 
 require (
-	github.com/aws/aws-sdk-go v1.49.0 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.28.6 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.47 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.21 // indirect
